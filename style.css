@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  #main {
+    position: relative;
+    overflow: hidden;
+  }
+#firstpage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  #page3 > canvas {
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+  }
